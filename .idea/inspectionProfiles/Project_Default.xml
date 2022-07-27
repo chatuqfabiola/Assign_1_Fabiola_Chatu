@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Random" />
+          <option value="tip_calculator.tip_calculator_program.meal_price" />
+          <option value="assignement_1.assig_.decimal" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
