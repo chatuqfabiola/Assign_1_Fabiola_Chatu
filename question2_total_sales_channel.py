@@ -1,12 +1,13 @@
 import csv
 
-
 f = open("50000_Sales_Records.csv", 'rt')
 reader = csv.reader(f)
 next(reader)
 #for row in reader:
 #    print(row)
 
+sales = set()
+regions = []
 offline_count = 0
 online_count = 0
 not_responded = 0
@@ -26,3 +27,11 @@ for row in reader:
 print(f"Number of total units Offline is : {offline_count}")
 print(f"Number of total units Online is: {online_count}")
 print(f"Number of non_responded is: {not_responded}")
+
+
+# Go to each ; Total for offline and total online
+
+for regions in sales:
+
+    print(f"Total for {regions}")
+

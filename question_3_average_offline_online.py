@@ -6,6 +6,7 @@ online_count = 0
 revenue_count = 0
 offline_total_revenue = Decimal(0.00)
 online_total_revenue = Decimal(0.00)
+total_revenue = 0
 
 #The average revenue of all the units sold for channel.
 # c. The total revenue for channel.
@@ -35,6 +36,3 @@ print(f"total revenue for channel Online is: {online_count}")
 print(revenue_count)
 print(total_revenue)
 
-print("Total revenue of " + str(CHECK_MULTIPLE) + ".")
-offline_count += 1
-revenue_count += 1

@@ -3,6 +3,7 @@ import csv
 
 records = []
 sales = set()
+regions = []
 offline_count = 0
 online_count = 0
 
